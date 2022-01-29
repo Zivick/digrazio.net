@@ -1,0 +1,188 @@
+#hero {
+    background: #252525;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+
+    .nav-container {
+        padding: 3% 14.5%;
+
+        i {
+            padding-right: 5%;
+        }
+
+        .nav-name {
+            color: #FFF;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+    
+        .nav-link {
+            color: #FFF;
+            font-size: 1.2rem;
+        }
+    
+        .hamburger {
+            color: #FFF;
+            font-size: 150%;
+        }
+    }
+
+    .hero-body {
+        padding: 5% 15% 9% 15%;
+
+        .image-container {
+            display: flex;
+            align-items: center;
+
+            .creator-img {
+                width: 80%;
+                border-radius: 100%;
+                border: 4px solid black;
+                box-shadow: 0 0 75px #050505;
+            }
+        }
+
+        .hero-text {
+            padding: 9% 0;
+            text-align: center;
+            justify-content: center;
+    
+            h1 {
+                font-family: 'Encode Sans SC', sans-serif;
+                font-weight: 900;
+                font-size: 2.5rem;
+                padding-bottom: 7%;
+            }
+    
+            p {
+                padding-bottom: 5%;
+            }
+        }
+    }
+
+}
+
+#skills {
+
+    .skills-container {
+        text-align: center;
+        padding: 10% 5%;
+
+        h2 {
+            padding-bottom: 1%;
+        }
+
+        i {
+            font-size: 800%;
+            padding-bottom: 5%;
+        }
+    }
+
+}
+
+// #resume {
+
+//     .resume-container {
+
+//         .resume-logo {
+//             width: 200px;
+//             height: 200px;
+//         }
+
+//         .resume-left {
+//             text-align: right;
+
+//             h3 {
+//                 text-align: left;
+//                 margin-top: 4%;
+//             }
+
+//             h5 {
+//                 text-align: left;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    #hero {
+
+        .hero-body {
+
+            .hero-text {
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    #hero {
+
+        .nav-container {
+            padding: 3% 10%;
+
+            .nav-name {
+                font-size: 1rem;
+            }
+        }
+
+
+        .hero-body {
+    
+            .hero-text {
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+
+            .image-container {
+                justify-content: center;
+                
+                .creator-img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    #skills {
+        .skill-gap {
+            padding-bottom: 10%;
+        }
+    }
+
+}
+
+
+@media (min-width: 576px) {
+    #hero {
+
+        .hero-body {
+
+            .hero-text {
+
+                h1 {
+                    font-size: 1.20rem;
+                }
+            }
+        }
+    }
+}

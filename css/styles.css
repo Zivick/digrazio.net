@@ -1,0 +1,119 @@
+#hero {
+  background: #252525;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hero .nav-container {
+  padding: 3% 14.5%;
+}
+
+#hero .nav-container i {
+  padding-right: 5%;
+}
+
+#hero .nav-container .nav-name {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#hero .nav-container .nav-link {
+  color: #FFF;
+  font-size: 1.2rem;
+}
+
+#hero .nav-container .hamburger {
+  color: #FFF;
+  font-size: 150%;
+}
+
+#hero .hero-body {
+  padding: 5% 15% 9% 15%;
+}
+
+#hero .hero-body .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .hero-body .image-container .creator-img {
+  width: 80%;
+  border-radius: 100%;
+  border: 4px solid black;
+  -webkit-box-shadow: 0 0 75px #050505;
+          box-shadow: 0 0 75px #050505;
+}
+
+#hero .hero-body .hero-text {
+  padding: 9% 0;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#hero .hero-body .hero-text h1 {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-bottom: 7%;
+}
+
+#hero .hero-body .hero-text p {
+  padding-bottom: 5%;
+}
+
+#skills .skills-container {
+  text-align: center;
+  padding: 10% 5%;
+}
+
+#skills .skills-container h2 {
+  padding-bottom: 1%;
+}
+
+#skills .skills-container i {
+  font-size: 800%;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 1200px) {
+  #hero .hero-body .hero-text h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero .nav-container {
+    padding: 3% 10%;
+  }
+  #hero .nav-container .nav-name {
+    font-size: 1rem;
+  }
+  #hero .hero-body .hero-text h1 {
+    font-size: 2rem;
+  }
+  #hero .hero-body .image-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #hero .hero-body .image-container .creator-img {
+    width: 80%;
+  }
+  #skills .skill-gap {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 576px) {
+  #hero .hero-body .hero-text h1 {
+    font-size: 1.20rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
